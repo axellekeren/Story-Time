@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Time</title>
+    <link rel="icon" href="Foto.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            padding: 1rem;
+        }
+        .categories {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .category {
+            flex: 1 1 30%;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin: 1rem;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+        @media (max-width: 768px) {
+            .category {
+                flex: 1 1 45%;
+            }
+        }
+        @media (max-width: 480px) {
+            nav ul li {
+                display: block;
+                text-align: center;
+            }
+            .category {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Story Time</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="stories.html">Stories</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="Kontak.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Welcome to Story Time</h2>
+            <p>Immerse yourself in the world of enchanting stories. Whether you are looking for short stories, fairy tales, or thrilling adventures, you'll find it all here. Choose from the categories below and let your imagination soar.</p>
+            <div class="categories">
+                <div class="category">
+                    <a href="Short stories.html"><h3>Short Stories</h3></a>
+                    <p>Interesting and exciting short story</p>
+                </div>
+                <div class="category">
+                    <a href="Fairy Tales.html"><h3>Fairy Tales</h3></a>
+                    <p>Fairy Tales are fantastical narratives often involving magical elements such as fairies, witches, and other mystical creatures. They typically recount the adventures of good or evil characters in settings that are unreal. These stories often contain moral lessons or teachings conveyed through engaging and imaginative plots.</p>
+                </div>
+                <div class="category">
+                    <a href="Adventures.html"><h3>Adventures</h3></a>
+                    <p>Adventure stories usually involve the main character facing great challenges or exploring mysterious new places. They often have to overcome physical or mental obstacles, such as exploring hidden caves, finding lost treasure, or encountering fantastic creatures. These stories are usually filled with exciting elements of suspense, courage and exploration, and offer readers a thrilling and imagination-stirring experience.</p>
+                </div>
+            </div>
+        </section>
+        <section id="stories">
+            <a href="stories.html"><h2>Stories</h2></a>
+            <article>
+                <a href="The Adventures of Luna the Cat.html"><h3>The Adventures of Luna the Cat</h3></a>
+                <p>Luna is a black cat who likes adventure. One day, he found a small glowing door at the base of an old tree in the forest. The door leads him to an underground world full of treasures. There, Luna meets a fairy named Elara who tells her that the magical world is in danger because mischievous goblins stole the Magic Stone that maintains the balance of nature.
+
+                    Luna decides to help and follows the map Elara gave her to the goblin nest. After a long and challenging journey, Luna managed to reclaim the Magic Stone from the goblins. He returns it to its place and restores balance to the magical world.
+                    
+                    Elara and the other creatures thank Luna and give her a beautiful necklace as a token of appreciation. Luna returns to the village proudly, ready for new adventures ahead.</p>
+            </article>
+            <article>
+                <a href="The Brave Little Penguin.html"><h3>The Brave Little Penguin</h3></a>
+                <p>Pip is a brave little penguin with a big dream of finding Rainbow Island, a beautiful legendary island. Despite facing many challenges such as strong winds, slippery icebergs, and blizzards, Pip never gives up. Finally, he found Rainbow Island which was full of colorful plants, warm pools, and lots of fish.
+
+                    After enjoying the beauty of the island, Pip returns to his colony to share this discovery with his family and friends. Pip leads them to Rainbow Island, bringing happiness and prosperity to the entire colony. Pip is revered as a hero, and Rainbow Island becomes a wonderful reality for all the penguins.</p>
+            </article>
+        </section>
+        <section id="about">
+            <a href="about.html"><h2>About Us</h2></a>   
+            <p>We are passionate storytellers who love to share the magic of tales from around the world.</p>
+        </section>
+        <section id="contact">
+            
+        </section>
+        <section id="Donate">
+            <a href="Donasi.html"><h2>Donate to Help Story Time</h2></a>   
+               <p>Story Time invites you to contribute to maintaining the sustainability of this platform. With your support, we can continue to present interesting stories that inspire readers from all walks of life. Please use the ShopeePay QR code below to donate. Every donation you make will help us provide quality and engaging content.
+               Thank you for your support!</p>
+           </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Story Time. All rights reserved.</p>
+    </footer>
+</body>
+</html>
